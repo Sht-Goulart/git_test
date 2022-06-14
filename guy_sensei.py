@@ -22,3 +22,6 @@ for file in files:
     conteudo_decrypted = Fernet(secretkey).decrypt(conteudo)
     with open(file, "wb") as arquivo:
         arquivo.write(conteudo_decrypted)
+
+
+#Key
